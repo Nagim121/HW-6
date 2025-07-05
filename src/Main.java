@@ -16,25 +16,22 @@ public class Main {
             int age = 18;
             if (age >= 18) {
                 System.out.println("Если возраст человека равен 18, то он совершеннолетний");
-            }
-            if (age < 18) {
-                System.out.println("Если возраст человека меньшне 18, то он не достиг совершеннолетия, нужно немного подождать");
+            } else {
+                System.out.println("Он не достиг совершеннолетия, нужно немного подождать");
             }
             System.out.println("Задчача 2");
             int temp = 4;
             if (temp > 5) {
                 System.out.println("Сегодня тепло, можно идти без шапки");
-            }
-            if (temp < 5) {
+            } else {
                 System.out.println("На улице холодно, нужно надеть шапку");
             }
             System.out.println("Задача 3");
 
-            int speed = 55;
+            int speed = 57;
             if (speed > 60) {
                 System.out.println("Если скорость  " + speed + " км/час, то придется заплатить штраф");
-            }
-            if (speed < 60) {
+            } else {
                 System.out.println("Если скорость  " + speed + " км/час, то можно ездить спокойно");
             }
             System.out.println("Задача 4");
